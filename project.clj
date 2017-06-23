@@ -9,4 +9,5 @@
   :profiles {:broken {:dependencies [[org.immutant/web "2.1.8"]]}
              :fixed? {:dependencies [[org.immutant/web "2.x.incremental.771"]]
                       :repositories [["Immutant incremental builds"
-                                      "http://downloads.immutant.org/incremental/"]]}})
+                                      "http://downloads.immutant.org/incremental/"]]}
+             :confirmed {:dependencies [[org.immutant/web "2.1.9"]]}})
