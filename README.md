@@ -1,14 +1,13 @@
 # immutant-web-issue
 
-A Clojure library designed to ... well, that part is up to you.
+This tests the fix for an issue with org.immutant/web's LazyMap-backed Request throwing an exception during .hashCode()
 
 ## Usage
 
-FIXME
+Shows the issue:
 
-## License
+`lein with-profiles +broken run`
 
-Copyright © 2017 FIXME
+Demonstrates the fix:
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+`lein with-profiles +fixed? run`
